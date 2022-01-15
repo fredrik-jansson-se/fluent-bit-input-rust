@@ -96,7 +96,7 @@ pub unsafe extern "C" fn cb_collect(
     ctx.collect_cnt += 1;
 
     // Constrult message pack
-    // It has the following structure [time-stampe, {a:foo, b:bar, ..}]
+    // It has the following structure [time-stamp, {a:foo, b:bar, ..}]
     let mut mp = Vec::new();
 
     // Array with two items
