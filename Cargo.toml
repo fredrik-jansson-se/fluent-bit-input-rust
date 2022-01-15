@@ -1,0 +1,16 @@
+[package]
+name = "in-example"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "in_example"
+crate-type = ["staticlib"]
+
+[dependencies]
+anyhow = "1"
+rmp = "0.8.10"
+
+[build-dependencies]
+bindgen="*"
+anyhow = "1"
