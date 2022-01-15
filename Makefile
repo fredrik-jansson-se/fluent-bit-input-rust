@@ -45,4 +45,4 @@ real-clean: clean
 	rm -rf fluent-bit
 
 run: 
-	fluent-bit/build/bin/fluent-bit -vv -e ./flb-in_example.so -i example -o stdout
+	fluent-bit/build/bin/fluent-bit -e ./flb-in_example.so -i example -o stdout
